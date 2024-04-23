@@ -7,6 +7,8 @@ Form-->Input --> Save --> Browser_sends_User_Input_to_the_server;
 ```
 Submitting the Form Causes 5 HTTP requests.
 
+```mermaid
+graph TD;
 sequenceDiagram
   participant Submit
   participant Reload
@@ -19,3 +21,4 @@ sequenceDiagram
   Fetch ->> main.css
   Fetch ->> main.js
   Fetch ->> data.json
+```
