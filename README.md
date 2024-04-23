@@ -3,5 +3,5 @@
 graph TD;
 First_Action;
 
-Form-->Input --> Save --> Browser sends User Input to the server;
+Form-->Input --> Save --> Browser_sends_User_Input_to_the_server;
 ```
