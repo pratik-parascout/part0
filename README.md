@@ -9,8 +9,8 @@ Submitting the Form Causes 5 HTTP requests.
 
 ```mermaid
 graph TD;
-  Submit --> Reload: sends POST request to address new_note server response 302;
-  Reload -->Fetch: causes 3 more HTTP requests;
+  Submit -->|sends POST request to address new_note server response 302| Reload;
+  Reload -->|causes 3 more HTTP requests|Fetch;
   Fetch --> main.css;
   Fetch --> main.js;
   Fetch --> data.json;
