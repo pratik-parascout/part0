@@ -20,8 +20,8 @@ graph TD;
   Form contains no Action or Method attribute;
 ```mermaid
   graph TD;
-  Post_request--> |to address new_notes_spa in JSON data|Server_reponse;
-  Server_response--> | Server respones the status code 201|NO_REDIRECT;
-  No_redirect--> |Browser stays on same page and no further HTTP requests are sent|END;
+  Post_request--> |to address new_notes_spa in JSON data| Server_reponse;
+  Server_response--> | Server respones the status code 201| NO_REDIRECT;
+  No_redirect--> |Browser stays on same page and no further HTTP requests are sent| END;
 
 ```
